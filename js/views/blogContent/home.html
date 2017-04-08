@@ -1,0 +1,33 @@
+<div>
+  <div class="oj-flex oj-flex-items-pad">
+    <div class="oj-md-8 oj-flex-item">
+      <blog-posts posts="{{postRouter.currentValue().posts}}" 
+                  category="{{postRouter.currentValue().category}}" 
+                  >
+      </blog-posts>
+    </div>
+    <div class="oj-md-4 oj-flex-item">
+      <div class="oj-flex oj-flex-items-pad oj-sm-flex-direction-column">
+        <div class="oj-flex-item oj-panel oj-margin  oj-panel-alt4">
+          <blog-search title="{{app.blogSearchTitle}}"
+                       suggestions="{{app.suggestions}}"
+                       on-blog-selection="{{app.search}}">
+          </blog-search>
+        </div>
+        <div class="oj-flex-item oj-panel oj-margin  oj-panel-alt4">
+          <blog-categories title="{{app.blogCategoriesTitle}}"
+                           categories="{{app.blogCategories}}"
+                           on-category-selection="{{app.gotoCategory}}" >
+          </blog-categories>
+        </div>
+        <!-- ko foreach: app.widgets-->
+        <div class="oj-flex-item oj-panel oj-margin  oj-panel-alt4">
+          <blog-widget title="{{title}}" path="{{path}}">
+          </blog-widget>
+        </div>
+        <!-- /ko -->
+      </div>
+
+    </div>
+  </div>
+</div>

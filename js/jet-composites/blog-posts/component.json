@@ -1,0 +1,16 @@
+{
+  "name": "blog-posts",
+  "description": "A blog posts element that can display all blog posts.",
+  "version": "0.0.1",
+  "jetVersion": ">=3.0.0",
+  "properties": {
+    "posts": {
+      "description": "Array of blog posts",
+      "type": "array"
+    },
+    "category": {
+      "description": "Title of blog post.",
+      "type": "object"
+    }
+  }
+}

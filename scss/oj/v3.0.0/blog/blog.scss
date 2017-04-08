@@ -1,0 +1,67 @@
+@import "blog.settings";
+@import "../alta/oj.alta.variables";
+
+@import "../3rdparty/normalize/normalize";
+@import "../alta/oj.alta.widgets";
+
+a .fa {
+  color: #ffffff;
+}
+a.toolbar-link:hover{
+  opacity:0.5;
+}
+
+.toolbar-link {
+  margin-right: 10px;
+}
+
+.bg-category {
+  display:block;
+  padding: 5px;
+  background-color: #9d9d9d;
+  border-radius: 5px;
+  color:white;
+}
+.bg-category-link {
+  padding-bottom: 5px;
+}
+.bg-category-link:hover {
+  text-decoration: none;
+}
+
+.bg-category-link:hover .bg-category {
+  background-color: gray;  
+}
+
+.bg-page-header {
+  font-size:      36px;
+  margin-top:     30px;
+  margin-bottom:  10px;
+  font-weight: normal;
+}
+
+.bg-page-caption {
+  font-size: 65%;
+  color:     #777;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.bg-profile-icon {
+  content: url('/images/photo.jpg');
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.bg-header {
+  padding-left: 10px;
+  align-self: center;
+}
+
+.oj-navigationlist-page-level.oj-navigationlist-horizontal.oj-navigationlist-icon-only .oj-navigationlist-item.oj-selected,
+.oj-navigationlist-page-level.oj-navigationlist-horizontal:not(.oj-navigationlist-icon-only) .oj-navigationlist-item.oj-selected {
+  border-color: white;
+}

@@ -1,0 +1,21 @@
+<div>
+  <!-- ko if: $props.category-->
+  <h1 class="bg-page-header">
+    <!-- ko text: $props.category.title -->
+    <!-- /ko -->
+    <!-- ko if: $props.category.caption -->
+    <small class="bg-page-caption" data-bind="text:$props.category.caption"></small>
+    <!-- /ko -->
+  </h1>
+  <hr/>
+  <!-- /ko -->
+  <!-- ko foreach: {data:$props.posts, as:'post'} -->
+  <blog-post post-id="{{post.id}}" 
+             title="{{post.title}}" 
+             post-date="{{post.post_datetime}}" 
+             author="{{post.author}}"
+             image="{{post.image}}"
+             short-desc="{{$props.posts.length > 1? post.short_desc :undefined}}">
+  </blog-post>
+  <!-- /ko -->
+</div>

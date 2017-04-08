@@ -1,0 +1,16 @@
+{
+  "name": "blog-widget",
+  "description": "A Custom widget.",
+  "version": "0.0.1",
+  "jetVersion": ">=3.0.0",
+  "properties": {
+    "path": {
+      "description": "Path to custom widget module",
+      "type": "string"
+    },
+    "title": {
+      "description": "Title of custom blog widget.",
+      "type": "string"
+    }
+  }
+}

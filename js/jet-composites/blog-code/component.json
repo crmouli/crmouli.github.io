@@ -1,0 +1,26 @@
+{
+  "name": "blog-code",
+  "description": "A blog post element that can display title,author,post date,image and content.",
+  "version": "0.0.1",
+  "jetVersion": ">=3.0.0",
+  "properties": {
+    "language": {
+      "description": "language of source code",
+      "type": "string"
+    },
+    "url": {
+      "description": "url of the source",
+      "type": "string"
+    },
+    "startLine": {
+      "description": "starting line number",
+      "type": "number",
+      "default": "-1"
+    },
+    "count": {
+      "description": "no of lines to be displayed",
+      "type": "number",
+      "default": "-1"
+    }
+  }
+}

@@ -1,27 +1,36 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Blog Home](http://startbootstrap.com/template-overviews/blog-home/)
+TODO:
+1) Integrate prism.js by adding a composite component which does
+a. takes list of files objects
+b. {
+name:
+path:
+startLine:
+endLine:
+lineHighlight:
+linenumbers:
+}
+c. Show tabs with overflow option and no tabs for single file
+d. Demo in one tab with result url and open in new window
+e. integrate jsfiddle links
 
-[Blog Home](http://startbootstrap.com/template-overviews/blog-home/) is a basic blog homepage HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+2) Style social network icons
+3) Add grunt commands to generate new pages and organize build and src and dist folders
+4) use flux pattern
+5) Build same system using angular/react/vuejs
 
-## Getting Started
+6) Integrate disqus commenting system
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/blog-home/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-blog-home.git`
-* Fork the repo
+Blog topics:
+1. About jet blogging system in ojet
+2. JET vs Angular 2 and react and vuejs
+3. REST Jackson and Jersey integration
+4. Serverside rendering with angularjs/reactjs/vuejs
+5. Simple performance testing on angularjs/reactjs/vuejs/jet and tips
+6. Node.js load balancing serverrendering
+7. Java samples code
+8. facebook messager chatbot
+9. Alexa/ service building
+10. AR/VR applications
+11. kafka application
+12. cassandra application
 
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-blog-home/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/blog-home/).
-
-## Creator
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/gh-pages/LICENSE) license.

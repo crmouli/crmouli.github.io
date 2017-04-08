@@ -1,0 +1,32 @@
+{
+  "name": "blog-post",
+  "description": "A blog post element that can display title,author,post date,image and content.",
+  "version": "0.0.1",
+  "jetVersion": ">=3.0.0",
+  "properties": {
+    "postId": {
+      "description": "Id of post",
+      "type": "string"
+    },
+    "title": {
+      "description": "Title of blog post.",
+      "type": "string"
+    },
+    "author": {
+      "description": "Author of blog post.",
+      "type": "string"
+    },
+    "postDate": {
+      "description": "Posted date.",
+      "type": "string"
+    },
+    "image": {
+      "description": "Post banner image url.",
+      "type": "string"
+    },
+    "shortDesc": {
+      "description": "short description.",
+      "type": "string"
+    }
+  }
+}

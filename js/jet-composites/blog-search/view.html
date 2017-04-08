@@ -1,0 +1,16 @@
+<div>
+  <h4 data-bind="text:$props.title"></h4>
+  <div class="input-group">
+    <label for="inputSearch" style="display:none">Input Search</label>
+    <input id="inputSearch" placeholder="Search..."
+        data-bind="ojComponent: {
+            component: 'ojInputSearch',
+            options: $props.suggestions,
+            optionsKeys: {
+                label: 'title',
+                value: 'id'
+            },
+            optionChange:selection,
+            rootAttributes: {style:'max-width: 20em'}}">
+  </div>
+</div>

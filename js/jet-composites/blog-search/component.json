@@ -1,0 +1,33 @@
+{
+  "name": "blog-search",
+  "description": "A blog search widget.",
+  "version": "0.0.1",
+  "jetVersion": ">=3.0.0",
+  "properties": {
+    "suggestions": {
+      "description": "auto suggestions for given query",
+      "type": "function"
+    },
+    "selection": {
+      "description": "triggered on selecting search results",
+      "type": "function"
+    },
+    "title": {
+      "description": "Title of blog search widget.",
+      "type": "string"
+    }
+  },
+  "events" : {
+    "blogSelection": {
+      "description": "Fired when user selected an item from autosuggestions",
+      "bubbles": true,
+      "detail": {
+        "value": {
+          "description": "The value of the selected post.",
+          "type": "string"
+        }
+      }
+    }
+  }
+  
+}

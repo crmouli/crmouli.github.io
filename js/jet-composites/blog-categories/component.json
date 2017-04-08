@@ -1,0 +1,28 @@
+{
+  "name": "blog-categories",
+  "description": "A blog categories display widget.",
+  "version": "0.0.1",
+  "jetVersion": ">=3.0.0",
+  "properties": {
+    "categories": {
+      "description": "List of categories.",
+      "type": "array"
+    },
+    "title": {
+      "description": "Title of blog categories widget.",
+      "type": "string"
+    }
+  },
+  "events" : {
+    "categorySelection": {
+      "description": "Fired when user selected a category",
+      "bubbles": true,
+      "detail": {
+        "value": {
+          "description": "The value of the selected category.",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

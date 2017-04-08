@@ -1,0 +1,74 @@
+{
+  "posts": [{
+    "id": "firstpost",
+    "title": "Blog Title",
+    "post_datetime": "August 24, 2013 at 9:00 PM",
+    "author": "Mouli",
+    "image": "/images/sample.png",
+    "tags": "html css javascirpt",
+    "category": "scaling",
+    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis, tempora, necessitatibus inventore nisi quam quia repellat ut tempore laborum possimus eum dicta id animi corrupti debitis ipsum officiis rerum."  
+  },
+  {
+    "id": "secondpost",
+    "title": "Blog Title2",
+    "post_datetime": "August 24, 2013 at 9:00 PM",
+    "author": "Mouli",
+    "image": "/images/sample.png",
+    "tags": "scaling loadbalancing failover",
+    "category": "scaling" ,
+    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis, tempora, necessitatibus inventore nisi quam quia repellat ut tempore laborum possimus eum dicta id animi corrupti debitis ipsum officiis rerum."  
+  }],
+"categories":[{
+    "id":"networking",
+    "title":"Networking"
+    },
+    {
+    "id":"security",
+    "title":"Security"
+    },
+    {
+    "id":"compression",
+    "title":"Compression"
+    },
+    {
+    "id":"caching",
+    "title":"Caching"
+    },
+    {
+    "id":"languages",
+    "title":"Languages"
+    },
+    {
+    "id":"Data Exchange",
+    "title":"Networking"
+    },
+    {
+    "id":"concurrency",
+    "title":"Concurrency"
+    },
+    {
+    "id":"problemsolving",
+    "title":"Problem Solving"
+    },
+    {
+    "id":"buildtools",
+    "title":"Build & Testing Tools"
+    },{
+    "id":"scaling",
+    "title":"Scaling"
+    },
+    {
+    "id":"storage",
+    "title":"Data Storage"
+    },
+    {
+    "id":"ui",
+    "title":"User Interface"
+    },
+    {
+    "id":"projectmgmt",
+    "title":"Project Management"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<div>
+  <h2>
+    <a href="#" data-bind="attr:{href:'/posts/'+$props.postId}, text:$props.title"></a>
+  </h2>
+  <p class="lead">
+    by <a data-bind="text:$props.author"></a>
+  </p>
+  <p>
+    <span title=".oj-fwk-icon-clock" role="img" class="oj-fwk-icon-clock oj-fwk-icon"></span> Posted on <!-- ko text:$props.postDate --> <!--/ko--></p>
+  <hr>
+  <!-- ko if:$props.image -->
+  <img class="img-responsive" data-bind="attr:{src:$props.image}" alt="">
+  <hr>
+  <!-- /ko -->
+  <!-- ko if: ($props.shortDesc) -->
+  <p data-bind="text:$props.shortDesc">
+  </p>
+  <!-- /ko -->
+  <!-- ko ifnot: ($props.shortDesc) -->
+    <!-- ko ojModule: getModuleSettings($props.postId) -->
+    <!-- /ko -->
+  <!-- /ko -->
+  
+  <!-- ko if: ($props.shortDesc) -->
+  <oj-button id='readMoreBtn' 
+             icons='{"end":"oj-fwk-icon-next oj-fwk-icon"}'
+             label= "{{readMoreTitle}}"
+             data-bind="click:goToPost.bind(null,$props.postId)"
+             >
+  </oj-button>
+  <!--/ko -->
+  <hr>
+</div>
