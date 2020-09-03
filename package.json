@@ -75,7 +75,7 @@
     "load-grunt-configs": "^0.4.3",
     "load-grunt-tasks": "^3.5.0",
     "mocha": "^1.20.0",
-    "node-sass": "4.2.0",
+    "node-sass": "4.14.1",
     "nopt": "^3.0.6",
     "path-is-absolute": "^1.0.0",
     "rimraf": "^2.2.8",
